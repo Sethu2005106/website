@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    background-color: #010027;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: background-image 1s ease-in-out;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+nav img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+   
+}
+section {
+  
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding: 5em;
+    text-align: center;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.8s ease;
+}
+
+nav ul li a:hover {
+
+    border-radius: 5px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+
+   
+main {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.welcome {
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+footer {
+    background-color: #003cff;
+    color: #fff;
+    text-align: center;
+    padding: 1em  0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header section */
+.header {
+    text-align: center;
+    padding: 50px 0;
+   background: transparent;
+   border: 2px solid rgba(255, 255, 255, .2);
+   backdrop-filter: blur(20px);
+   box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+/* Sections and team members */
+.section {
+    margin: 50px 0;
+}
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.team-member {
+    margin: 20px 0;
+    padding: 20px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    
+    border-radius: 8px;
+    
+}
+.team-member h3 {
+    margin-top: 0;
+}
+
+/* Services section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.service-item {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 8px;
+   
+}
+
+/* Call-to-action (cta) section */
+.cta {
+    text-align: center;
+    padding: 50px 0;
+
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.cta a {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #1e6dc2;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
